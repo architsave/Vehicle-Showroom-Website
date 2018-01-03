@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>Test Drive Registration</title>
+  <link rel="stylesheet" href="FormValidation.css" type="text/css">
+  <script src="FormValidation.js"></script>
+ 
+</head>
+ 
+<body onload="init();">
+
+  <h2 align="center"> Test Drive Registration</h2>
+ <form id="theForm" action="MAILTO:vitrag.jain@somaiya.edu" method="post" onsubmit="return validateForm()" enctype="text/plain">
+  
+<fieldset align="center"><legend>Vehicle Details</legend>   
+ <table>
+
+    <br><br>
+       Choose Car 
+       <select id="car" name="car">
+            <option value="" selected>Please select...</option>
+            <option value="bmw 1">BMW 720d</option>
+            <option value="bmw 2">BMW Z4</option>
+            <option value="bmw 3">BMW X5</option>
+          </select><br />  
+      <td id="carError" class="red">&nbsp;  </tr>
+    <tr><br>
+       Choose Bike  
+       <select id="bike" name="bike">
+            <option value="" selected>Please select...</option>
+            <option value="bmw 1">Moto-S1000RR</option>
+            <option value="bmw 2">Moto-K1600GT</option>
+            <option value="bmw 3">Moto-R1200RT</option>
+          </select><br />  
+      <td id="bikeError" class="red">&nbsp;  </tr>
+    <tr></table>
+</fieldset>
+<fieldset align="center"><legend>Personal Details</legend>
+<table>
+    
+    <tr>
+       Name<span class="red">*</span>  
+       <input type="text" id="name" name="name"/>  
+      <td id="nameError" class="red">&nbsp;  </tr><br>
+    <tr><br>
+       Gender<span class="red">*</span>  
+       <input type="radio" name="gender" value="m" />Male
+          <input type="radio" name="gender" value="f" />Female  
+      <td id="genderError" class="red">&nbsp;  </tr><br>
+    <tr><br>
+       Address  
+       <input type="text" id="address" name="address" />  
+      <td id="addressError" class="red">&nbsp;  </tr>
+    <tr><br><br>
+       Zip Code<span class="red">*</span>  
+       <input type="text" id="zipcode" name="zipcode" />  
+      <td id="zipcodeError" class="red">&nbsp;  </tr>
+    <tr><br><br>
+
+       Mobile<span class="red">*</span>  <input type="text" value="+91" disabled="" size="2">
+       <input type="text" id="mobile" name="mobile" />  
+      <td id="phoneError" class="red">&nbsp;  </tr>
+    <tr><br><br>
+       Email<span class="red">*</span>  
+       <input type="text" id="email" name="email" />  
+      <td id="emailError" class="red">&nbsp;  </tr>
+    <tr><br><br>
+ <input type="submit" value="SEND" id="submit" />&nbsp;
+          <input type="reset" value="CLEAR" id="reset"/>  
+       &nbsp;  </tr>
+    </table>
+</fieldset>
+  </form>
+</body>
+</html>

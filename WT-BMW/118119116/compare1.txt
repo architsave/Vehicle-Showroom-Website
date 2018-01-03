@@ -1,0 +1,12 @@
+<html>
+<BODY>
+<CENTER>
+  <DIV style="display:table-cell">
+	 <iframe width="240" height="999" src="bike\specs.html" name="topframe" frameBorder=0 SCROLLING=NO></iframe>
+      <iframe width="240" height="999" src="bike\bike1.html" name="topframe" frameBorder=0 SCROLLING=NO></iframe>
+      <iframe width="240" height="999" src="bike\bike3.html" name="contentframe" frameBorder=0 SCROLLING=no></iframe>
+      <iframe  width="240" height="999" src="bike\bike2.html" name="bottomframe" frameBorder=0 SCROLLING=NO></iframe>
+  </DIV>
+<CENTER>
+</BODY>
+</html>

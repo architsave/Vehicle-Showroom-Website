@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 align ="center">Test Drive Registration</h3>
+<form action="MAILTO:vitrag.jain@somaiya.edu" method="post" enctype="text/plain">
+  <fieldset align="center"><legend>Vehicle Details</legend>
+    
+  <label for="car">Choose CAR:</label>
+    <select name="car" id="car">
+       <option value="none">None</option> 
+      <option value="bmw 1">BMW 720d</option>   /*specify car name 1*/
+      <option value="bmw 2">BMW Z4</option>    /*specify car name 2*/
+      <option value="bmw 3">BMW X5</option>     /*specify car name 3*/
+      
+    </select>
+    <br><br>
+	
+  <label for="bike">Choose Motorcycle:</label>
+    <select name="bike" id="bike">
+      <option value="none">None</option>
+      <option value="bmw 1">BMW Moto-S1000R</option>    /*specify bike name 1*/
+      <option value="bmw 2">BMW Moto-K1600GT</option>     /*specify bike name 2*/
+      <option value="bmw 3">BMW Moto-R1200RT</option>      /*specify bike name 3*/
+    </select>
+    <br><br>
+  </fieldset>
+  <fieldset align="center"><legend>Personal Details</legend>
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" id="fname">
+    <br><br>
+    <label for="lname">Last Name</label>
+    <input type="text" name="lname" id="lname">
+
+
+<br><br>
+     Gender: 
+     <input name="gender" type="radio" id="gm" value="m">
+     <label for="gm">Male</label>
+     <input name="gender" type="radio" id="gf" value="f">
+     <label for="gf">Female</label>
+   <br><br>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email"><br><br>
+    <label for="address">Address:</label>
+     <input type="text" name="address"  size="75"><br><br>
+    <label for="landmark">Landmark:</label>
+    <input type="text" name="address"><br><br>
+    <label for="mobile">Mobile:</label>
+    <input type="text" value="+91" disabled="" size="2">
+    <input type="text" name="mobile">
+
+    
+
+    
+
+ </fieldset>
+
+  
+<input type="text" name="comment" value="your comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>

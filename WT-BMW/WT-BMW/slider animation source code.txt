@@ -1,0 +1,105 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <title>Slider Evolution » Help File</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" type="text/css" href="help/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="help/css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="js/slider/themes/carbono/jquery.slider.css">
+  <!--[if IE 6]>
+  <link rel="stylesheet" type="text/css" href="js/slider/themes/carbono/jquery.slider.ie6.css" />
+  <![endif]-->
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slider/jquery.slider.min.js"></script>
+<!--
+  <script type="text/javascript" src="src/jquery.slider.js"></script>
+ -->
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".slider").slideshow({
+      width      : 900,
+      height     : 325,
+      transition : 'bar'
+    });
+  });
+</script>
+
+</head>
+
+<body class="home">
+
+  <div id="wrapper">
+  
+    <h1 class="big">jQuery Slider Evolution</h1>
+    <h1 class="big">Documentation</h1>
+    <h2 class="big">By aeroalquimia</h2>
+    
+    
+    
+    
+    
+    
+    <div class="jquery-slider-wrapper jquery-slider-option-navigation-selector-control-timer jquery-slider-hovered" style="width: 900px; height: 325px;"><div class="slider" style="width: 900px; height: 325px; overflow: hidden; position: relative;">
+      <div class="jquery-slider-slide jquery-slider-slide-1" style="opacity: 0;">
+        <img src="assets/slide_1.jpg" alt="">
+      </div>
+      
+      <div class="jquery-slider-slide jquery-slider-slide-2" style="opacity: 0;">
+        <img src="assets/slide_2.jpg" alt="">
+      </div>
+      
+      <div class="jquery-slider-slide jquery-slider-slide-3 jquery-slider-slide-current" style="opacity: 1;">
+        <img src="assets/slide_3.jpg" alt="">
+      </div>
+      
+      <div class="jquery-slider-slide jquery-slider-slide-4" style="opacity: 0;">
+        <img src="assets/slide_4.jpg" alt="">
+      </div>
+    </div><div class="jquery-slider-timer"><div class="jquery-slider-timer-mask"><div class="jquery-slider-timer-rotator"></div></div><div class="jquery-slider-timer-bar" style="overflow: hidden; width: 0px;"></div></div><a href="#" class="jquery-slider-control jquery-slider-control-play"><span>Play/Pause</span></a><div class="jquery-slider-navigation"><a href="#" class="jquery-slider-navigation-prev" rel="-1"><span>Prev</span></a><a href="#" class="jquery-slider-navigation-next" rel="+1"><span>Next</span></a></div><div class="jquery-slider-selectors"><a href="#" class="jquery-slider-selector" rel="1"><span class="jquery-slider-selector-span jquery-slider-selector-1"><span>1</span></span></a><a href="#" class="jquery-slider-selector" rel="2"><span class="jquery-slider-selector-span jquery-slider-selector-2"><span>2</span></span></a><a href="#" class="jquery-slider-selector jquery-slider-selector-current" rel="3"><span class="jquery-slider-selector-span jquery-slider-selector-3"><span>3</span></span></a><a href="#" class="jquery-slider-selector" rel="4"><span class="jquery-slider-selector-span jquery-slider-selector-4"><span>4</span></span></a></div></div>
+
+<h3>Source Code</h3>
+<h4>HTML</h4>
+<pre>&lt;div class="slider"&gt;
+  &lt;div&gt;
+    &lt;img src="assets/slide_1.jpg" alt=""/&gt;
+  &lt;/div&gt;
+  
+  &lt;div&gt;
+    &lt;img src="assets/slide_2.jpg" alt=""/&gt;
+  &lt;/div&gt;
+  
+  &lt;div&gt;
+    &lt;img src="assets/slide_3.jpg" alt=""/&gt;
+  &lt;/div&gt;
+  
+  &lt;div&gt;
+    &lt;img src="assets/slide_4.jpg" alt=""/&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<h4>Javascript</h4>
+<pre>jQuery(document).ready(function($) {
+  $(".slider").slideshow({
+    width      : 900,
+    height     : 325,
+    transition : 'bar'
+  });
+});
+</pre>
+
+
+
+
+   
+    <div class="alert">
+      <p><a href="http://codecanyon.net/user/aeroalquimia">aeroalquimia</a> (Eduardo Daniel Sada)<br>
+      <strong>Buenos Aires, Argentina.</strong> Apr 2011</p>
+    </div>
+    
+  </div><!--/wrapper-->
+
+</body></html>
